@@ -26,5 +26,8 @@
   "homepage": "https://github.com/DoctorMuch/jest-another_RPG#readme",
   "devDependencies": {
     "jest": "^27.2.4"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.0"
   }
 }

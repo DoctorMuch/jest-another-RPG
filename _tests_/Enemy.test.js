@@ -48,8 +48,8 @@ test('gets enemy attack value', () => {
   const enemy = new Enemy('Beatrix LeStrange', 'curtain');
   enemy.strength = 8;
   
-  expect(enemy.getAttackValue()).toBeGreaterThanOrEqual(4);
-  expect(enemy.getAttackValue()).toBeLessThanOrEqual(12);
+  expect(enemy.getAttackValue()).toBeGreaterThanOrEqual(3);
+  expect(enemy.getAttackValue()).toBeLessThanOrEqual(13);
 });
 
 test('gives description of enemy, including name and weapon', () => {
